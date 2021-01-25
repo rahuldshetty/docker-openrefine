@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ENV OPENREFINE_VERSION 3.5.1
+ENV OPENREFINE_VERSION 3.5.2
 ENV OPENREFINE_FILE openrefine-linux-${OPENREFINE_VERSION}.tar.gz
 ENV OPENREFINE_URL https://github.com/rahuldshetty/OpenRefine/releases/download/${OPENREFINE_VERSION}/${OPENREFINE_FILE}
 
